@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+section{
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: url(bg1.jpg)no-repeat;
+  background-size: cover;
+  background-position: center;  
+}
+
+header{
+  position:absolute;
+  top: 0px;;
+  width: 60%;
+  padding: 30px 100px;
+  display: flex;
+}
+
+header .logo{
+  position: relative;
+  color:rgb(6, 1, 19);
+  font-size: 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 800;
+  
+} 
+
+header .navigation a{
+  color:black;
+  text-decoration:wavy;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  padding: 2px 15px;
+  border-radius: 30px;
+  transition: 0.3s;
+  transition-property:all;
+}
+
+header .navigation a:not(:last-child){
+  margin-inline-start: 20px;
+}
+
+header .navigation a:hover{
+  background: rgb(171, 207, 38);
+}
+
+.content{
+  max-width: 500px;
+  margin: 60px 100px;
+}
+
+.content h2{
+  color:rgb(171, 207, 38);
+  font-size: 45px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+  line-height: 70px;
+  margin-bottom: 10px;
+  margin-top: 20%;
+  
+}
+.content p{
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.content button{
+  color:black;
+  background: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 2px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: 0.3s;
+  transition-property:all;
+}
+
+
+.content button:hover{
+  background:rgb(171, 207, 38);
+}
+
+.media{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin:auto;
+  
+
+}
+
+.media a{
+  position: relative;
+  color: #111;
+  top: 0x;
+  bottom: 50%;
+  font-size: 25px;
+  transition: 0.3s;
+  transition-property:all;
+}
+
+.media a:not(:last-child){
+  margin-right: 60px;
+ 
+}
+.media a:hover{
+  transform: scale(1.3);
+}
